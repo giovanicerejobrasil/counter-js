@@ -44,3 +44,7 @@ body {
   font-size: 1.1rem;
   padding: 0.3rem 1rem;
 }
+
+.items button:active {
+  background-color: #797979;
+}

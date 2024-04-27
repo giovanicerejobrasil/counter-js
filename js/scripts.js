@@ -112,5 +112,6 @@ minus.addEventListener("click", () => {
 });
 
 saveItem.addEventListener("click", () => {
+  if (nameItem.value === "") return;
   counter.setLocalItems(nameItem.value);
 });
