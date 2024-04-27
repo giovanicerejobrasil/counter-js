@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/scripts.js" defer></script>
+</head>
+
+<body>
+  <div class="md:container mx-auto">
+    <header id="header" class="text-center my-4">
+      <h1 class="box-decoration-clone text-3xl">Contador Default</h1>
+    </header>
+
+    <section id="contador" class="bg-black w-4/5 h-96 mx-auto rounded-lg flex flex-col">
+      <div class="text-gray-300 text-center text-7xl h-1/5">
+        <span id="result">0</span>
+      </div>
+
+      <div class="text-white text-center text-9xl h-3/5 flex flex-col justify-center">
+        <span id="plus">+1</span>
+      </div>
+
+      <div class="text-white text-3xl h-1/5 flex flex-col justify-end">
+        <span id="minus">-1</span>
+      </div>
+    </section>
+
+    <section id="contadores-salvos" class="my-4">
+      <h2 class="text-center box-decoration-clone text-3xl">Contadores Salvos</h2>
+    </section>
+
+    <section class="items my-4">
+      <input type="text" id="name-item" placeholder="Nome do contador">
+      <button id="save-item">Salvar</button>
+    </section>
+  </div>
+</body>
+
+</html>
