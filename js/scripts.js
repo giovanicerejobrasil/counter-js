@@ -15,7 +15,7 @@ class Counter {
   }
 
   getLocalItems() {
-    return JSON.parse(localStorage.getItem("items"));
+    return JSON.parse(localStorage.getItem("items")) ?? [];
   }
 
   setLocalItems(name) {
